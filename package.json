@@ -1,0 +1,21 @@
+{
+  "name": "tvfi",
+  "version": "0.1.0",
+  "description": "A diretory for your favorites TV Shows",
+  "main": "index.js",
+  "scripts": {
+    "build-js": "browserify index.js -o app.js"
+  },
+  "keywords": [
+    "TV",
+    "Shows"
+  ],
+  "author": "Fco Javier",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.1.1"
+  }
+}
